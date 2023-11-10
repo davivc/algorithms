@@ -1,0 +1,10 @@
+class Solution:
+    def minCostClimbingStairs(self, cost: List[int]) -> int:
+        climb = [cost[0], cost[1]]
+
+        for i in range(2, len(cost)):
+            val = cost[i] + min(climb)
+            climb.pop(0)
+            climb.append(val)
+
+        return min(climb)

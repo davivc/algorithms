@@ -1,3 +1,8 @@
-# LeetCode
+# Algorithms
 
-These are my practice codes for LeetCode. I've focused on try to finish the exercise using what I already knew rather than look to beat performance.
+These are my algorithms practice codes. Resources I'm using:
+
+- LeetCode
+- Codility
+- Algorithms (Dasgupta, Papadimitrou & Vazirani)
+- Grokking Algorithms (Aditya Y. Bhargava)

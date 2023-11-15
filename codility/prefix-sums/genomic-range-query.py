@@ -1,4 +1,4 @@
-def solution(S, P, Q):
+def solution(S, P, Q): # O(n+m)
     K = min(len(P), len(Q))
 
     S_arr = [*S]
@@ -7,7 +7,7 @@ def solution(S, P, Q):
     sum_arr_c = [0]
     sum_arr_g = [0]    
 
-    for i in range(0, len(S_arr)):
+    for i in range(0, len(S_arr)): # O(n)
         a = sum_arr_a[i]
         c = sum_arr_c[i]
         g = sum_arr_g[i]
@@ -23,7 +23,7 @@ def solution(S, P, Q):
         sum_arr_g.append(g)
      
     answer = []
-    for j in range(K):
+    for j in range(K): # O(m)
         start = P[j]
         end = Q[j]+1
 

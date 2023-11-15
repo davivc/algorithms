@@ -5,7 +5,7 @@ def solution(S, P, Q): # O(n+m)
 
     sum_arr_a = [0]
     sum_arr_c = [0]
-    sum_arr_g = [0]    
+    sum_arr_g = [0]
 
     for i in range(0, len(S_arr)): # O(n)
         a = sum_arr_a[i]

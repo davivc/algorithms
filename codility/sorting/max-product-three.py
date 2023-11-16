@@ -10,4 +10,4 @@ def solution(A):
     highestPositive = A[-1] * A[-2] * A[-3] 
     highestNegative = A[-1] * A[0] * A[1]
 
-    return max(highestPositive, highestNegative) 
+    return max(highestPositive, highestNegative)

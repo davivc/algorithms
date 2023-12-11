@@ -1,6 +1,7 @@
 # you can write to stdout for debugging purposes, e.g.
 # print("this is a debug message")
 # [1]
+# [2,2,3,2,3,3,3]
 
 def solution(A):
     N = len(A)
